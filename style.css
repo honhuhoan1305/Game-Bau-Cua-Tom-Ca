@@ -1,0 +1,118 @@
+/* baucua.css */
+   #chedo {
+    margin: 0 auto; /* Căn giữa theo chiều ngang */
+    width: 700px; /* Đặt chiều rộng cụ thể cho nút */
+      padding: 30px; /* Thêm padding để mở rộng phạm vi có thể click */
+             background-color: transparent; /* Loại bỏ màu nền mặc định */
+
+  border: none; /* Loại bỏ viền mặc định */
+  outline: none; /* Loại bỏ đường viền focus */
+  cursor: default; /* Thay đổi con trỏ chuột */
+  text-decoration: none; /* Loại bỏ gạch chân nếu nút là liên kết */
+}
+#chedo {
+    position: absolute;
+    top: 300%;
+    left: 30%;
+    transform: translate(-110%, -70%);
+    width: 90px; /* Điều chỉnh kích thước phù hợp */
+   
+}
+
+
+#chedo:hover {
+    
+     background-color: transparent; /* Loại bỏ màu nền mặc định */
+  border: none; /* Loại bỏ viền mặc định */
+  outline: none; /* Loại bỏ đường viền focus */
+  cursor: default; /* Thay đổi con trỏ chuột */
+  text-decoration: none; /* Loại bỏ gạch chân nếu nút là liên kết */
+        padding: 30px; /* Thêm padding để mở rộng phạm vi có thể click */
+
+}
+#playButton {
+  display: flex;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid black; /* Viền đen cơ bản */
+    border-radius: 10px;   /* Bo tròn các góc */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Đổ bóng */
+    background-color: #ffcdd2;
+    margin-bottom:20px;
+}
+
+#leftArea {
+    flex: 1;
+    /* background-color: #e0f2f1; Màu xanh nhạt */
+    border-top-left-radius: 10px; /* Bo tròn góc trên bên trái */
+    border-bottom-left-radius: 10px; /* Bo tròn góc dưới bên trái */
+}
+
+#rightArea {
+    flex: 1;
+   /* background-color: #f0f4c3;  Màu vàng nhạt */
+     color: #111;
+    font-family: Inter, sans-serif;
+    font-size: 26px;
+    justify-content: center;
+    line-height: 50px;
+     text-align: center;
+}
+
+#bottomArea {
+    flex: 1;
+  /*  background-color: #ffcdd2;  Màu hồng nhạt */
+    border-top-right-radius: 10px; /* Bo tròn góc trên bên phải */
+    border-bottom-right-radius: 10px; /* Bo tròn góc dưới bên phải */
+}
+
+
+#playButton1 {
+  display: flex;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid black; /* Viền đen cơ bản */
+    border-radius: 10px;   /* Bo tròn các góc */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Đổ bóng */
+    background-color: #ffcdd2;
+    margin-bottom:20px;
+}
+
+#playButtonDan {
+  display: flex;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid black; /* Viền đen cơ bản */
+    border-radius: 10px;   /* Bo tròn các góc */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Đổ bóng */
+    background-color: #ffcdd2;
+    margin-bottom:20px;
+}
+#allArea {
+        flex: 1;
+   /* background-color: #f0f4c3;  Màu vàng nhạt */
+     color: #111;
+    font-family: Inter, sans-serif;
+    font-size: 26px;
+    justify-content: center;
+    line-height: 50px;
+     text-align: center;
+}
+
+#danArea {
+        flex: 1;
+   /* background-color: #f0f4c3;  Màu vàng nhạt */
+     color: #111;
+    font-family: Inter, sans-serif;
+    font-size: 26px;
+    justify-content: center;
+    line-height: 50px;
+     text-align: center;
+}
+.xxxx {
+    display: none;
+
+}
